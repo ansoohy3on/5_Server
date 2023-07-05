@@ -1,0 +1,16 @@
+package edu.kh.jsp.model.vo;
+
+public class Person {
+	private String name;
+	private int age;
+	private String address;
+	
+	public Person() {} // 기본 생성자
+	
+	public getName() {}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+}

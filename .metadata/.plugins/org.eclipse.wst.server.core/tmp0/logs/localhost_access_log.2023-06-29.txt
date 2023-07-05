@@ -1,0 +1,11 @@
+127.0.0.1 - - [29/Jun/2023:10:17:58 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [29/Jun/2023:10:17:58 +0900] "GET /ServletProject1/example3.do HTTP/1.1" 200 193
+0:0:0:0:0:0:0:1 - - [29/Jun/2023:10:17:58 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+127.0.0.1 - - [29/Jun/2023:10:22:52 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [29/Jun/2023:10:22:53 +0900] "GET /ServletProject1/ HTTP/1.1" 200 4961
+0:0:0:0:0:0:0:1 - - [29/Jun/2023:10:23:15 +0900] "GET /ServletProject1/example3.do?inputId=user01&inputPw1=pass01&inputPw2=pass01&inputName=%EC%9C%A0%EC%A0%80%EC%9D%BC&inputEmail=user01%40naver.com&color=%EB%85%B8%EB%9E%91&color=%ED%8C%8C%EB%9E%91&color=%EB%B6%84%ED%99%8D HTTP/1.1" 200 330
+127.0.0.1 - - [29/Jun/2023:10:24:23 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [29/Jun/2023:10:24:34 +0900] "GET /ServletProject1/example3.do?inputId=user01&inputPw1=pass01&inputPw2=pass01&inputName=%EC%9C%A0%EC%A0%80%EC%9D%BC&inputEmail=user01%40naver.com&color=%EB%85%B8%EB%9E%91&color=%ED%8C%8C%EB%9E%91&color=%EB%B6%84%ED%99%8D HTTP/1.1" 200 258
+127.0.0.1 - - [29/Jun/2023:10:25:18 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [29/Jun/2023:10:25:18 +0900] "GET /ServletProject1/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Jun/2023:10:25:28 +0900] "GET /ServletProject1/example3.do?inputId=user01&inputPw1=pass01&inputPw2=pass01&inputName=%EC%9C%A0%EC%A0%80%EC%9D%BC&inputEmail=user01%40naver.com&color=%EB%85%B8%EB%9E%91&color=%EB%B6%84%ED%99%8D HTTP/1.1" 200 269

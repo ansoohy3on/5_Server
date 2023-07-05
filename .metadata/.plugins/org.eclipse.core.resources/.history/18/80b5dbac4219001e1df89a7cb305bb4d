@@ -1,0 +1,9 @@
+package edu.kh.jsp.controller;
+
+public class ScopeServlet {
+
+	private void doget() {
+
+	}
+	
+}

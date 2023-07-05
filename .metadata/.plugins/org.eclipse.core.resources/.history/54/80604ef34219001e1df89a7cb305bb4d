@@ -1,0 +1,23 @@
+package edu.kh.jsp.controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/EL/scope")
+public class ScopeServlet extends HttpServlet{
+
+//	a태그 요청은 모두 GET 방식
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		
+		
+		
+	}
+}

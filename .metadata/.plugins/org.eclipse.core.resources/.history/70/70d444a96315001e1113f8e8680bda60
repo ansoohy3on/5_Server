@@ -1,0 +1,9 @@
+package edu.kh.servlet;
+
+import javax.servlet.http.HttpServlet;
+
+// Servlet 클래스를 만들기 위해서는
+
+public class ServletEx1 extends HttpServlet{
+	
+}
