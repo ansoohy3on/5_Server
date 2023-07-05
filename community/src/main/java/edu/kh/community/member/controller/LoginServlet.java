@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import edu.kh.community.member.model.service.MemberService;
+import edu.kh.community.member.model.vo.Member;
+
 @WebServlet("/member/login")
 public class LoginServlet extends HttpServlet {
 
@@ -28,5 +31,23 @@ public class LoginServlet extends HttpServlet {
 		
 		System.out.println(inputEmail);
 		System.out.println(inputPw);
+		
+		// 파라미터를 VO에 세팅(롬복 확인)
+		Member mem = new Member();
+		mem.setMemberEmail(inputEmail);
+		mem.setMemberPw(inputPw);
+		
+		try {
+			// 서비스 객체 생성
+			MemberService service = new MemberService();
+			
+			// 이메일, 비밀번호가 일치하는 회원을 조회하는 서비스 호출 후 결과 반환
+			Member loginMember = service.login(mem);
+			
+			System.out.println(loginMember);
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 }
