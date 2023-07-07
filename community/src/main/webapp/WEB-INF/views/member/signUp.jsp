@@ -23,7 +23,7 @@
             <!-- 클릭 시 메인페이지로 이동하는 로고 -->
             <section>
                 <a href="#">
-                    <img src="resources/images/logo.jpg" id="home-logo">
+                    <img src="../resources/images/logo.jpg" id="home-logo">
                 </a>
             </section>
 
@@ -65,7 +65,20 @@
         <!-- 회원가입 -->
         <section class="signUp-content">
 
-            <form action="#" method="post" name="signUp-form">
+            <!-- 회원가입 화면 전환 주소(GET)와 같은 주소로
+                 실제 회원가입을 요청(POST)
+                 -> 요청 주소가 같아도 데이터 전달 방식이 다르면 중복 허용
+            -->
+
+
+            <!-- 절대경로 : /community/member/signUp
+
+                 현재주소 : /community/member/signUp
+                 상대경로 : signUp
+            
+            -->
+
+            <form action="signUp" method="post" name="signUp-form">
 
                 <label for="memberEmail">
                     <span class="required">*</span> 아이디(이메일)
