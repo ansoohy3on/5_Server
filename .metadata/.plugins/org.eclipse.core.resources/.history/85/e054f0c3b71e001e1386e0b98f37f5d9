@@ -1,0 +1,30 @@
+package edu.kh.community.common.filter;
+
+import java.io.IOException;
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.annotation.WebFilter;
+import javax.servlet.http.HttpFilter;
+
+// 암호화를 적용해야 되는 요청 : 로그인, 회원가입, 비밀번호 변경, 회원 탈퇴
+
+@WebFilter(filterName = "encryptFilter",
+			urlPatterns = "/member/*")
+public class EncryptFilter extends HttpFilter implements Filter {
+       
+    public void init(FilterConfig fConfig) throws ServletException {
+    }
+
+	public void destroy() {
+	}
+
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+		chain.doFilter(request, response);
+	}
+
+
+}
