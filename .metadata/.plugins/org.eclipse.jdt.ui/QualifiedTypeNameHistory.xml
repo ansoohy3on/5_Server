@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="edu.kh.jsp.common.JDBCTemplate"/>
     <fullyQualifiedTypeName name="edu.kh.jsp.model.dao.MemberDAO"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="edu.kh.jsp.model.vo.Member"/>
     <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
     <fullyQualifiedTypeName name="javax.naming.Context"/>
@@ -44,4 +43,6 @@
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.travelmaker.common.wrapper.EncryptWrapper"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
 </qualifiedTypeNameHistroy>

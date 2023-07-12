@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* section {
+    border: 1px solid black;
+}
+
+article {
+    border: 1px solid black;
+} */
+
+main {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 175px;
+}
+
+.head {
+    width: 100%;
+    height: 175px;
+    display: flex;
+}
+
+
+
+/* 로고 */
+#logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head > section:nth-child(2) {
+    width: 30%;
+    height: 100%;
+}
+
+
+
+/* header - 검색창 */
+#search-area {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
+    padding-left: 120px;
+}
+
+#search-area fieldset {
+    width: 230px;
+    height: 40px;
+    border: 2px solid rgb(153, 216, 199);
+    border-radius: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#query {
+    width: 230px;
+    font-size: 15px;
+    outline: 0;
+    border: none;
+}
+
+#search-area section {
+    width: 250px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+#search-btn {
+    background-color: white;
+    font-size: 1.5em;
+    color: rgb(153, 216, 199);
+    cursor: pointer;
+    border: none;
+}
+
+
+
+/* header - 로그인/회원가입 버튼 */
+.login-area {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
+}
+
+.btn-style {
+    width: 100px;
+    height: 40px;
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    /* background-color: rgba(153, 216, 199, 0.46); */
+    background-color: rgb(153, 216, 199);
+    font-weight: bold;
+    margin: 0 5px;
+
+    cursor: pointer;
+}
+
+.login-area a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* navigation */
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(153, 216, 199);
+    display: flex;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#nav {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-menu {
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    padding: 11px;
+    border-radius: 15px;
+}
+
+.nav-menu > a {
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+/* middle */
+#middle {
+    height: auto;
+    display: flex;
+}
+
+/* 마이 페이지 왼쪽 메뉴 */
+.left-section {
+    width: 300px;
+    height: auto;
+    background-color: rgba(153, 216, 199, 0.46);
+}
+
+.left-section-head {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* 관리자 프로필 */
+.left-section-image {
+    width: 100%;
+    height: 250px;
+
+    text-align: center;
+    padding-top: 20px;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#admin-profile{
+    border-radius: 50%;
+}
+
+.left-section-btn {
+    height: 108px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section-btn button{
+    width: 160px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    border: none;
+    border-radius: 25px;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    color: white;
+    background-color: rgb(153, 216, 199);
+
+    cursor: pointer;
+}
+
+/* 오른쪽 내용 화면 */
+.right-section{
+    width: 900px;
+}
+
+/* 관리자 페이지 상단 우측 제목 */
+.right-section > section:first-of-type{
+    display: flex;
+    height: 100px;
+}
+
+.title{
+    width: 80%;
+    padding: 30px 15px;
+    margin-left: 20px;
+    
+    font-size: 30px;
+    font-weight: bold;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.right-section-btn{
+    width: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.right-section-btn button{
+    width: 85px;
+    height: 35px;
+    margin-top: 20px;
+
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    color: white;
+    background-color: #ddd;
+
+    cursor: pointer;
+}
+
+.right-section-btn button:hover{
+    color: white;
+    background-color: #000000;
+
+    transition-duration: 1s;
+}
+
+#btn-margin{
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+/* 홈 화면 관리 내용 */
+.home-pic-area{
+    margin-top: 5px;
+    display: flex;
+}
+
+.home-pic-area > section{
+    width: 25%;
+    text-align: center;
+}
+
+.home-pic-area i{
+    padding-right: 140px;
+}
+
+.home-pic{
+    border: 1px solid #ddd;
+    display: inline-block;
+
+    width: 160px;
+    height: 160px;
+}
+
+.file-input{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+/* 홈 화면 사진 업로드 */
+#home-pic-preview1{
+    width: 158px;
+    height: 158px;
+}
+
+#home-pic-preview2{
+    width: 158px;
+    height: 158px;
+}
+
+#home-pic-preview3{
+    width: 158px;
+    height: 158px;
+}
+
+#home-pic-preview4{
+    width: 158px;
+    height: 158px;
+}
+
+.link-input{
+    width: 145px;
+}
+
+/* 이달의 베스트 여행지 Top10, 테마 */
+.title2-area{
+    height: 100px;
+}
+
+.title2{
+    width: 95.5%;
+    padding: 30px 15px;
+    margin-left: 20px;
+    
+    font-size: 25px;
+    font-weight: bold;
+
+    border-bottom: 1px solid #ddd;
+}
+
+/* 이달의 베스트 여행지 사진 업로드 */
+#best-place-preview1{
+    width: 158px;
+    height: 158px;
+}
+
+#best-place-preview2{
+    width: 158px;
+    height: 158px;
+}
+
+#best-place-preview3{
+    width: 158px;
+    height: 158px;
+}
+
+#best-place-preview4{
+    width: 158px;
+    height: 158px;
+}
+
+/* 테마 사진 업로드 */
+#theme-preview1{
+    width: 158px;
+    height: 158px;
+}
+
+#theme-preview2{
+    width: 158px;
+    height: 158px;
+}
+
+#theme-preview3{
+    width: 158px;
+    height: 158px;
+}
+
+#theme-preview4{
+    width: 158px;
+    height: 158px;
+}
+
+/* 사진 누르면 이동하는 페이지 링크 입력 */
+.form-area{
+    margin-bottom: 30px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(224, 224, 224, 0.18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer > section:first-child {
+    width: 400px;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+}
+
+.footer {
+    width: 150px;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}

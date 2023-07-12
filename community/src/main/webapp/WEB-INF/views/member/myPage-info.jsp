@@ -39,16 +39,16 @@
                 <!-- http://localhost:8080/community/member/myPage/info (GET)
                      http://localhost:8080/community/member/myPage/info (POST) -->
 
-                <form action="info" method="POST" name="myPage-form" onsubmit="return myPageValidate()">
+                <form action="info" method="POST" name="myPage-form" onsubmit="return infoValidate()">
 
                     <div class="myPage-row">
                         <label>닉네임</label>
-                        <input type="text" name="memberNickname" value="${loginMember.memberNickname}" maxlength="10">
+                        <input type="text" name="memberNickname" id="memberNickname" value="${loginMember.memberNickname}" maxlength="10">
                     </div>
 
                     <div class="myPage-row">
                         <label>전화번호</label>
-                        <input type="text" name="memberTel" value="${loginMember.memberTel}" maxlength="11">
+                        <input type="text" name="memberTel" id="memberTel" value="${loginMember.memberTel}" maxlength="11">
                     </div>
 
                     <!-- 주소 -->		  <!-- fn:split(문자열, '구분자') -->
