@@ -1,0 +1,5 @@
+package com.travelmaker.common.wrapper;
+
+public class EncryptWrapper {
+
+}

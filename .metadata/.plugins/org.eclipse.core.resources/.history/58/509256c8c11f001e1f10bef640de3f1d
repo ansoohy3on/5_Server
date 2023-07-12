@@ -1,0 +1,7 @@
+package com.travelmaker.member.model.vo;
+
+import lombok.AllArgsConstructor;
+
+public class Member {
+
+}

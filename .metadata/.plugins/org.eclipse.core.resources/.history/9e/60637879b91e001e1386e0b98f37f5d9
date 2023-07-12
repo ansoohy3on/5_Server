@@ -1,7 +1,0 @@
-package edu.kh.community.common.wrapper;
-
-import javax.servlet.http.HttpServletRequestWrapper;
-
-public class EncryptWrapper extends HttpServletRequestWrapper {
-
-}

@@ -46,7 +46,7 @@
             		
             			<!-- 절대경로 : /community/member/login -->
 		            	<!-- 상대경로 (index.jsp) 기준 -->
-		                <form action="member/login" method="post" name="login-form">
+		                <form action="member/login" method="post" name="login-form" onsubmit="return loginValidate()">
 		        
 		                    <!-- 아이디(이메일)/비밀번호/로그인 버튼 영역 -->
 		                    <fieldset id="id-pw-area">
@@ -55,6 +55,7 @@
 		                            															<%-- 현재 페이지 쿠키 중 "saveId"의 내용을 출력 --%>
 		                            <input type="password" name="inputPw" placeholder="비밀번호">
 		                        </section>
+
 		                        <section>
 		                            <button>로그인</button>
 		                        </section>
@@ -88,7 +89,7 @@
                             </c:if>
 
 		                    <label>
-		                        <input type="checkbox" name="saveId" ${chk}>아이디 저장
+		                        <input type="checkbox" name="saveId" ${chk} id="saveId">아이디 저장
 		                    </label>
 		                    
 		                </form>
@@ -128,5 +129,9 @@
 
     <!-- footer include -->
     <jsp:include page="/WEB-INF/views/common/footer.jsp"/>
+
+	<!-- main.js 연결 -->
+	<script src="${contextPath}/resources/js/main.js"></script>
+
 </body>
 </html>
