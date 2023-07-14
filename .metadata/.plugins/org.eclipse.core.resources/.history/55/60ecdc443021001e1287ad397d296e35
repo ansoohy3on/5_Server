@@ -1,0 +1,7 @@
+package com.travelmaker.member.controller;
+
+import javax.servlet.http.HttpServlet;
+
+public class selectAllServlet extends HttpServlet{
+
+}

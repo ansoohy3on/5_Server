@@ -1,0 +1,17 @@
+package com.travelmaker.member.model.dao;
+
+import static com.travelmaker.common.JDBCTemplate.*;
+
+import java.sql.Connection;
+import java.util.List;
+
+import com.travelmaker.member.model.vo.Member;
+
+public class MemberDAO {
+
+	public List<Member> selectAll(Connection conn) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
