@@ -30,7 +30,6 @@
                  -> 요청 주소가 같아도 데이터 전달 방식이 다르면 중복 허용
             -->
 
-
             <!-- 절대경로 : /community/member/signUp
 
                  현재주소 : /community/member/signUp
