@@ -1,9 +1,0 @@
-package edu.kh.community.common.wrapper;
-
-import javax.servlet.http.HttpServletRequestWrapper;
-
-public class EncryptWrapper extends HttpServletRequestWrapper {
-
-	// HttpServletRequestWrapper
-	// - 클라이언트 요청 객체 HttpServletRequest를 오버라이딩 하는 방법을 제공하는 클래스
-}
