@@ -1,0 +1,9 @@
+127.0.0.1 - - [19/Jul/2023:16:45:10 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [19/Jul/2023:16:45:11 +0900] "GET /TravelMaker/ HTTP/1.1" 200 5003
+0:0:0:0:0:0:0:1 - - [19/Jul/2023:16:45:11 +0900] "GET /TravelMaker/resources/css/region3.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Jul/2023:16:45:11 +0900] "GET /TravelMaker/image/logo.png HTTP/1.1" 404 841
+0:0:0:0:0:0:0:1 - - [19/Jul/2023:16:45:11 +0900] "GET /TravelMaker/resources/images/%ED%97%A4%EC%9D%B4%EB%8B%A4%EC%9D%B4%EB%8B%9D.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [19/Jul/2023:16:49:31 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [19/Jul/2023:16:49:31 +0900] "GET /TravelMaker/ HTTP/1.1" 200 5003
+0:0:0:0:0:0:0:1 - - [19/Jul/2023:16:49:31 +0900] "GET /TravelMaker/image/logo.png HTTP/1.1" 404 841
+0:0:0:0:0:0:0:1 - - [19/Jul/2023:16:49:39 +0900] "GET /TravelMaker/admin/memberAdmin HTTP/1.1" 200 -
