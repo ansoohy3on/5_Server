@@ -1,0 +1,14 @@
+package com.travelmaker.board.model.service;
+
+import static edu.kh.community.common.JDBCTemplate.*;
+import java.util.Map;
+
+public class BoardService_ash {
+	
+
+	public Map<String, Object> selectOneOnOneInquiryList(int cp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

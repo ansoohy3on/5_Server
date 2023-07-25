@@ -1,0 +1,5 @@
+package com.travelmaker.member.model.vo;
+
+public class MemberQuery {
+
+}

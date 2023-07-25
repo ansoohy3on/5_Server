@@ -1,0 +1,21 @@
+package com.travelmaker.board.model.service;
+
+import static com.travelmaker.common.JDBCTemplate.*;
+import java.util.Map;
+
+import com.travelmaker.board.model.dao.BoardDAO_ash;
+
+public class BoardService_ash {
+	
+	private BoardDAO_ash dao = new BoardDAO_ash();
+	
+	/**
+	 * @param cp
+	 * @return
+	 */
+	public Map<String, Object> selectOneOnOneInquiryList(int cp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

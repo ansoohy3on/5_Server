@@ -8,6 +8,7 @@
 		<item key="wrap" value="true"/>
 		<item key="incremental" value="false"/>
 		<list key="findhistory">
+			<item value="바리스타"/>
 			<item value="쿠키"/>
 			<item value="로그인"/>
 			<item value="아이디 저장"/>
