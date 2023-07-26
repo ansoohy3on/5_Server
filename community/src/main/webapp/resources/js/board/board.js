@@ -32,7 +32,13 @@
             const params = new URL(location.href).searchParams;
 
             const type = "type=" + params.get("type"); // type=1
-            const cp = "cp=" + params.get("cp"); // cp=1
+            let cp;
+            
+            if(params.get("cp") != ""){ // 쿼리스트링에 cp가 있을 경우
+               cp = "cp=" + params.get("cp");
+            } else{
+                cp = "cp=1";
+            }
 
             // 조립
             // /community/board/list?type=1&cp=1
