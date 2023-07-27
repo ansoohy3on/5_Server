@@ -1,3 +1,6 @@
 
 6월 29, 2023 16:00:54.201 NEW SESSION
 6월 29, 2023 16:00:54.202 [2452:12736:0629/160054.200:ERROR:device_event_log_impl.cc(222)] [16:00:54.200] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+
+7월 27, 2023 15:40:55.398 NEW SESSION
+7월 27, 2023 15:40:55.398 [6216:908:0727/154055.397:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 

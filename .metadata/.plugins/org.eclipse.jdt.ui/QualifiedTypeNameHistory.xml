@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="com.travelmaker.common.wrapper.EncryptWrapper"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="com.travelmaker.member.model.service.MemberService"/>
@@ -21,16 +20,13 @@
     <fullyQualifiedTypeName name="edu.kh.community.board.model.dao.replyDAO"/>
     <fullyQualifiedTypeName name="edu.kh.community.board.model.service.ReplyService"/>
     <fullyQualifiedTypeName name="com.travelmaker.member.model.service.MemberService_ash"/>
-    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
     <fullyQualifiedTypeName name="edu.kh.community.board.model.vo.Reply"/>
     <fullyQualifiedTypeName name="org.apache.jasper.compiler.NewlineReductionServletWriter"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="com.travelmaker.member.model.vo.Member"/>
     <fullyQualifiedTypeName name="org.apache.tomcat.util.json.JSONParser"/>
     <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="com.oreilly.servlet.multipart.FileRenamePolicy"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
@@ -38,26 +34,30 @@
     <fullyQualifiedTypeName name="com.travelmaker.board.model.dao.BoardDAO_ash"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="com.travelmaker.board.model.vo.Pagination"/>
-    <fullyQualifiedTypeName name="com.travelmaker.board.model.vo.Board"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.oreilly.servlet.MultipartRequest"/>
     <fullyQualifiedTypeName name="edu.kh.community.common.MyRenamePolicy"/>
     <fullyQualifiedTypeName name="java.util.Enumeration"/>
-    <fullyQualifiedTypeName name="edu.kh.community.board.model.vo.BoardImage"/>
     <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.tool.Archive"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="edu.kh.community.member.model.vo.Member"/>
-    <fullyQualifiedTypeName name="edu.kh.community.board.model.vo.BoardDetail"/>
     <fullyQualifiedTypeName name="edu.kh.community.board.controller.BoardWriteController"/>
-    <fullyQualifiedTypeName name="edu.kh.community.board.model.service.BoardService"/>
     <fullyQualifiedTypeName name="edu.kh.community.common.Util"/>
+    <fullyQualifiedTypeName name="edu.kh.community.board.model.service.BoardService"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="edu.kh.community.board.model.vo.BoardDetail"/>
+    <fullyQualifiedTypeName name="edu.kh.community.board.model.vo.BoardImage"/>
+    <fullyQualifiedTypeName name="com.travelmaker.board.model.vo.BoardDetail"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
-    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="com.travelmaker.board.model.service.BoardService_ash"/>
+    <fullyQualifiedTypeName name="com.travelmaker.board.model.vo.Board"/>
+    <fullyQualifiedTypeName name="com.travelmaker.board.model.vo.Reply"/>
+    <fullyQualifiedTypeName name="com.travelmaker.member.model.vo.Member"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="com.travelmaker.board.model.vo.BoardDetail"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
