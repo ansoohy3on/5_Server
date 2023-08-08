@@ -1,9 +1,0 @@
-package com.travelmaker.board.controller;
-
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-
-@WebServlet("/admin/OneOnOneInquiry/*")
-public class OneOnOneInquiryReplyController extends HttpServlet{
-	
-}

@@ -1,9 +1,0 @@
-package edu.kh.community.common;
-
-public class Util {
-
-	// 개행 문자 -> <br> 변경 메서드
-	public static String newLineHandling() {
-		
-	}
-}

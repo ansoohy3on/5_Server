@@ -322,6 +322,7 @@ function updateReply(replyNo, btn){
         data : {"replyNo" : replyNo,
                 "replyContent" : replyContent},
         type : "POST",
+        
         success : function(result){
             if(result > 0){
                 alert("댓글이 수정되었습니다.");

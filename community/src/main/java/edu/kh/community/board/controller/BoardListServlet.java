@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import edu.kh.community.board.model.service.BoardService;
 
-@WebServlet("/board/list")
+@WebServlet("/board/list") 
 public class BoardListServlet extends HttpServlet{
 	
 	@Override
@@ -37,7 +37,19 @@ public class BoardListServlet extends HttpServlet{
 			BoardService service = new BoardService();
 			
 			// 게시판 이름, 페이지네이션 객체, 게시글 리스트를 한번에 반환하는 Service 호출
-			Map<String, Object> map = service.selectBoardList(type, cp);
+			Map<String, Object> map = null;
+			
+			if(req.getParameter("key") == null) { // 일반 목록 조회
+				
+				map = service.selectBoardList(type, cp);
+				
+			} else { // 검색 목록 조회
+				
+				String key = req.getParameter("key");
+				String query = req.getParameter("query");
+				
+				map = service.searchBoardList(type, cp, key, query);
+			}
 			
 			// request 범위로 map을 세팅
 			req.setAttribute("map", map);

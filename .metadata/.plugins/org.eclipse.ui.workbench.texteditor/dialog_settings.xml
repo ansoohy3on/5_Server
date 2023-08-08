@@ -4,15 +4,18 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="쿠키"/>
+		<item key="selection" value="Like"/>
 		<item key="wrap" value="true"/>
 		<item key="incremental" value="false"/>
 		<list key="findhistory">
+			<item value="LIKE"/>
+			<item value="selectO"/>
+			<item value="out"/>
+			<item value="system"/>
 			<item value="바리스타"/>
 			<item value="쿠키"/>
 			<item value="로그인"/>
 			<item value="아이디 저장"/>
-			<item value="footer"/>
 		</list>
 		<list key="replacehistory">
 		</list>

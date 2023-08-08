@@ -15,7 +15,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 --><!-- The contents of this file will be loaded for each web application -->
-<Context workDir="C:\workspace\5_Server\TravelMaker\src\main\webapp\WEB-INF\jspwork">
+<Context>
 
 
     <!-- Default set of monitored resources. If one of these changes, the    -->
