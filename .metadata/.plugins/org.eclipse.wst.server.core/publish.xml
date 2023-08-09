@@ -3,5 +3,4 @@
   <server id="community server" path="publish2.dat"/>
   <server id="JSP Server" path="publish1.dat"/>
   <server id="Servlet Server" path="publish0.dat"/>
-  <server id="TravelMaker Server" path="publish3.dat"/>
 </publish-info>
